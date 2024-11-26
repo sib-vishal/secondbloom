@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100..800&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.b {
+  border: 1px solid red;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px #999;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  outline: 1px solid var(--primary-color);
+}
+::selection {
+  color: #fff;
+  background: var(--primary-color);
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --primary-color: #247776;
+  --secondary-color: #fd8d4b;
+  --third-color: #0cb5b5;
+  --forth-color: #f6c15d;
+}
+
+.bg_primary {
+  background-color: var(--primary-color);
+}
+.bg_secondary {
+  background-color: var(--secondary-color);
+}
+.bg_third {
+  background-color: var(--third-color);
+}
+.bg_forth {
+  background-color: var(--forth-color);
+}
+.bg-lightgray {
+  background-color: #f7f7f7;
+}
+.text_primary {
+  color: var(--primary-color);
+}
+
+.text_secondary {
+  color: var(--secondary-color);
+}
+
+.text_third {
+  color: var(--third-color);
+}
+
+.text_forth {
+  color: var(--forth-color);
+}
+
+*,
+*::after,
+*::before,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-size: 16px;
+  color: #000;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+a,
+button {
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+a:hover {
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+textarea:focus,
+select:focus,
+a:hover {
+  outline: none;
+  box-shadow: none;
+}
+section {
+  padding: 70px 0 70px;
+}
+
+.large_heading {
+  font-size: 65px;
+}
+.heading {
+  font-size: 40px;
+  line-height: 50px;
+}
+.sub_heading {
+  font-size: 30px;
+}
+.small_heading {
+  font-size: 25px;
+}
+.small_heading {
+  font-size: 22px;
+}
+.title {
+  font-size: 20px;
+}
+.text {
+  font-size: 18px;
+}
+.fontWeight300 {
+  font-weight: 300;
+}
+.fontWeight400 {
+  font-weight: 400;
+}
+.fontWeight500 {
+  font-weight: 500;
+}
+.fontWeight600 {
+  font-weight: 600;
+}
+.fontWeight700 {
+  font-weight: 700;
+}
+.fontWeight800 {
+  font-weight: 800;
+}
+.fontWeight900 {
+  font-weight: 900;
+}
+.fontHeading {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* buttons */
+.btn_3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+.btn_3 .btn_icon {
+  align-items: center;
+  width: 50px;
+  display: flex;
+  height: 50px;
+  background-color: #fff !important;
+  color: var(--secondary-color) !important;
+  justify-content: center;
+}
+
+/* pulse animation */
+.circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 1px #0000001a;
+}
+
+.pulse {
+  animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px #fff;
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
+}
+
+/* header */
+.stricky {
+  transition: all 0.4s ease-in-out;
+}
+.nav-bar.stricky-fixed {
+  /* position: sticky;
+  padding: 0;
+  z-index: 9999; */
+  padding: 0;
+  top: 0;
+  position: fixed;
+  z-index: 999;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  width: 100%;
+  background: #fff;
+  -webkit-animation-name: menu_sticky;
+  animation-name: menu_sticky;
+  -webkit-animation-duration: 0.6s;
+  animation-duration: 0.6s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+}
+.nav-bar.stricky-fixed .navbar {
+  /* padding-left: 0 !important; */
+  padding-right: 0 !important;
+}
+@-webkit-keyframes menu_sticky {
+  0% {
+    margin-top: -150px;
+  }
+  50% {
+    margin-top: -130px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+@keyframes menu_sticky {
+  0% {
+    margin-top: -150px;
+  }
+  50% {
+    margin-top: -130px;
+  }
+}
+
+/* home Hero */
+.banner_swiper .swiper-slide {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0cb5b5;
+  background-blend-mode: multiply;
+}
+.banner_swiper .swiper-slide .banner-slide {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.banner_swiper .swiper-slide .banner-slide .banner-overlay {
+}
+
+/* about section */
+.about-section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  overflow: hidden;
+}
+.about-section video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* info_card */
+.info_card {
+  height: 100%;
+  padding: 30px;
+  background-color: var(--forth-color);
+  border-radius: 10px;
+  box-shadow: 0 0 10px 1px #00000038;
+  transition: all 0.4s ease-in-out;
+}
+.info_card h4 {
+  color: var(--primary-color);
+  position: relative;
+}
+.info_card h4:after {
+  position: absolute;
+  background-color: var(--primary-color);
+  bottom: -10px;
+  width: 100px;
+  height: 3px;
+  content: "";
+  left: 0;
+  z-index: 1;
+}
+.info_card p {
+  margin-top: 25px;
+}
+.info_card .img_box {
+  margin-bottom: 30px;
+}
+
+.info_card:hover {
+  background-color: #fff;
+}
+
+/* our services */
+.service-card {
+  padding: 30px;
+  background-color: var(--third-color);
+  border-radius: 10px;
+  height: 100%;
+}
+.service-card-title {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 30px;
+}
+.service-card-title::after {
+position: absolute;
+background-color: #fff;
+bottom: -10px;
+width: 100px;
+height: 3px;
+content: "";
+left: 0;
+z-index: 1;
+}
+.service-card-text{
+  margin-top:25px;
+  color: #fff;
+}
