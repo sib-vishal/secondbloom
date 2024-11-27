@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Thanks You </title>
+    <title>Thanks You | Second Bloom </title>
      <meta http-equiv="refresh" content="4; URL=index.php" />  
     <?php include'include/head-links.php';?>
     <style>

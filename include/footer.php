@@ -1,4 +1,4 @@
-<div class="container-fluid bg-dark text-light footer pt-3 pb-3 mt-5 wow fadeIn">
+<div class="container-fluid bg-dark text-light footer pt-3 pb-3  wow fadeIn">
 	<div class="containerFull py-5">
 		<div class="row mb-5 align-items-center ">
 			<div class="col-md-4">
@@ -36,12 +36,12 @@
 			</div>
 			<div class="col-lg-3 col-md-6">
 				<h4 class="text-light mb-4">Quick Links</h4>
-				<a class="d-block mt-1 text-light text-decoration-none" href="/home">Home</a>
-				<a class="d-block mt-1 text-light text-decoration-none" href="/about-us">About Us</a>
-				<a class="d-block mt-1 text-light text-decoration-none" href="/about-us">Services</a>
-				<a class="d-block mt-1 text-light text-decoration-none" href="/contact-us">Contact Us</a>
-				<a class="d-block mt-1 text-light text-decoration-none" href="/terms-of-service">Terms of Service</a>
-				<a class="d-block mt-1 text-light text-decoration-none" href="/privacy-policy">Privacy Policy</a>
+				<a class="d-block mt-1 text-light text-decoration-none" href="index.php">Home</a>
+				<a class="d-block mt-1 text-light text-decoration-none" href="about-us.php">About Us</a>
+				<a class="d-block mt-1 text-light text-decoration-none" href="services.php">Services</a>
+				<a class="d-block mt-1 text-light text-decoration-none" href="contact-us.php">Contact Us</a>
+				<a class="d-block mt-1 text-light text-decoration-none" href="terms-of-service.php">Terms of Service</a>
+				<a class="d-block mt-1 text-light text-decoration-none" href="privacy-policy.php">Privacy Policy</a>
 			</div>
 			<div class="col-lg-3 col-md-6">
 				<h4 class="text-light mb-4">Newsletter</h4>
@@ -62,7 +62,7 @@
 				</div>
 				<div class="col-md-6 text-center text-md-end">
 
-					Designed By <a class="text-light" href="">SIB INFOTECH</a>
+					Designed By <a class="text-light" href="https://www.sibinfotech.com/">SIB INFOTECH</a>
 				</div>
 			</div>
 		</div>

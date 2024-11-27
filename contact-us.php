@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Contact Us |</title>
+    <title>Contact Us | Second Bloom</title>
     <meta name="description" content="" />
     <?php include 'include/head-links.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">
@@ -21,81 +21,83 @@
 <body>
     <?php include 'include/header.php'; ?>
     <div class="wrapper">
-        <div class="contact-banner">
-            <div class="containerFull w-100">
-                <div class="banner-inner  ">
-                    <h1 class="fontHeading heading text-white fontWeight800 ">
+    <div class="page-banner">
+            <div class="banner-inner  ">
+                <div class="containerFull w-100">
+                    <h1 class="fontHeading heading text-white fontWeight600 ">
                         Contact Us
-
                     </h1>
-                    <!-- <p class="mt-3 text-white col-lg-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, repudiandae unde beatae accusamus
-                        laudantium fuga magni vel inventore perferendis ullam explicabo, nesciunt debitis. Itaque dicta
-                        repudiandae eos deleniti cum nisi.z
-                    </p> -->
-
+                    <p class="mt-3 text-white-50 fontWeight600">
+                        Home / Contact Us
+                    </p>
                 </div>
             </div>
-
-
-
         </div>
-        <section>
+        <section class="">
             <div class="containerFull">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <small class="fontWeight600">
+                        <small class="fontWeight600 text-white-50 ">
                             GET IN TOUCH
                         </small>
-                        <h4 class="mt-3 fontHeading  heading ">
-                            Contact with us for <span class="text_primary">Visa Inquiry</span>
+                        <h4 class="mt-3 fontHeading  heading text_primary ">
+                            Contact with us for <span class="text_forth">Health Care Services</span>
                         </h4>
 
-                        <div>
+                        <p class="mt-3 pe-lg-5 ">
+                            we are health service Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+                            labore aperiam odit, alias assumenda ducimus.
 
+                        </p>
+                        <p class="mt-3 pe-lg-5 ">
+                            we are health service Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+                            labore aperiam odit, alias assumenda ducimus.
 
-                            <img class="w-75 mx-auto d-block"
-                                src="images/travel-landmark-concept-poster-print_1284-13615.jpg" alt="">
+                        </p>
+
+                        <div class="section-button section-button-left mt-5">
+
+                            <a href="tel:0123456789">
+                                <div class=" mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg_secondary d-flex align-items-center"
+                                    style="width:fit-content">
+                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
+                                        style="width: 45px; height: 45px;">
+                                        <i class="fa fa-phone-alt text_primary"></i>
+                                    </div>
+                                    <div class="ms-3">
+                                        <!-- <p class="mb-1 text-white">Emergency 24/7</p> -->
+                                        <h5 class="m-0 text-secondary text-light">+012 345 6789</h5>
+                                    </div>
+                                </div>
+                            </a>
+
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 ps-5">
                         <form action="">
                             <div class="form_grid">
-                                <div class="form-floating mb-1">
+                                <div class="form-floating mb-3">
                                     <input type="text" class="form-control" id="name" placeholder="name">
                                     <label for="name">Name *</label>
                                 </div>
 
-                                <div class="form-floating mb-1">
+                                <div class="form-floating mb-3">
                                     <input type="tel" class="form-control" id="phoneno" placeholder="phone no">
                                     <label for="phoneno">Contact No. *</label>
                                 </div>
-                                <div class="form-floating mb-1">
+                                <div class="form-floating ">
                                     <input type="email" class="form-control" id="floatingInput"
                                         placeholder="name@example.com">
                                     <label for="floatingInput">Email Address *</label>
                                 </div>
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="Country" placeholder="Country">
-                                    <label for="Country">Country * </label>
-                                </div>
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="visa_type" placeholder="Visa Type">
-                                    <label for="visa_type">Visa Type</label>
-                                </div>
 
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="floatingPassword"
-                                        placeholder="Expected Travel (if known)">
-                                    <label for="floatingPassword">Expected Travel (if known)</label>
-                                </div>
                             </div>
                             <div class="form-floating mt-3">
                                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
                                     style="height: 100px"></textarea>
                                 <label for="floatingTextarea2">Additional Information </label>
                             </div>
-                            <button class="btn_1 border-0 w-100 mt-4">
+                            <button type="submit" class="btn_1 border-0 w-100 mt-4">
                                 Submit
                             </button>
 

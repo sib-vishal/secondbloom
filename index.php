@@ -1,4 +1,60 @@
 <?php $page = 'home'; ?>
+<?php
+
+// Creating an array with the new structure, including titles and descriptions
+$whyChooseUs = [
+    [
+        "title" => "ALL-ROUND SUPPORT",
+        "description" => "We administer an all-inclusive approach to support that encompasses housing, 24/7 care, medical assistance, and help with daily living activities, ensuring that all of your needs are met in one place.",
+        "image" => "https://placehold.co/100x100"
+    ],
+    [
+        "title" => "CARING TEAM",
+        "description" => "Our care attendants are trained professionals who treat every client with respect, dignity, and kindness, creating a safe and welcoming environment.",
+        "image" => "https://placehold.co/100x100"
+    ],
+    [
+        "title" => "PERSONALISED SUPPORT",
+        "description" => "We treat each person differently, and our care is unique to their needs and preferences.",
+        "image" => "https://placehold.co/100x100"
+    ],
+    [
+        "title" => "Community Integration",
+        "description" => "We are proactive in supporting our clients to maintain community ties and independence and a sense of belonging within the community.",
+        "image" => "https://placehold.co/100x100"
+    ],
+    [
+        "title" => "Reliable Medical Coordination",
+        "description" => "Our transportation services include support to ensure that our clients are safely and punctually transported to scheduled appointments, and that they are managing their medications properly and taking their required medications.",
+        "image" => "https://placehold.co/100x100"
+    ],
+    [
+        "title" => "Accessible Locations",
+        "description" => "We have numerous centers around Philadelphia, so help is always close when needed.",
+        "image" => "https://placehold.co/100x100"
+    ],
+    [
+        "title" => "Commitment to Dignity",
+        "description" => "We at Second Bloom encourage our seniors and those with disabilities to live an assured life, determined and bold with confidence.",
+        "image" => "https://placehold.co/100x100"
+    ],
+    [
+        "title" => "Proven Experience",
+        "description" => "We develop trusted service through our years of experience with our dedication towards improving the quality of life of those we care for.",
+        "image" => "https://placehold.co/100x100"
+    ],
+    [
+        "title" => "Family Peace of Mind",
+        "description" => "Knowing your loved ones are in caring and capable hands brings unparalleled reassurance to families.",
+        "image" => "https://placehold.co/100x100"
+    ],
+    [
+        "title" => "Affordable and Accessible",
+        "description" => "We strive to offer quality care at competitive rates, ensuring accessibility for everyone in need.",
+        "image" => "https://placehold.co/100x100"
+    ]
+]; ?>
+
 
 
 <!DOCTYPE html>
@@ -106,16 +162,22 @@
                             commodi ratione et, corporis ea magni sint iure accusantium?
                         </p>
 
-                        <div class="bg_secondary d-flex align-items-center p-4 mt-5">
-                            <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                style="width: 60px; height: 60px;">
-                                <i class="fa fa-phone-alt fa-2x text_primary"></i>
-                            </div>
-                            <div class="ms-3">
-                                <p class="fs-5 fw-medium mb-2 text-white-50">Emergency 24/7</p>
-                                <h3 class="m-0 text-light">+012 345 6789</h3>
-                            </div>
+                        <div>
+                            <a href="tel:0123456789">
+                                <div class="bg_secondary d-flex align-items-center p-4 mt-5">
+                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
+                                        style="width: 60px; height: 60px;">
+                                        <i class="fa fa-phone-alt fa-2x text_primary"></i>
+                                    </div>
+                                    <div class="ms-3">
+                                        <p class="fs-5 fw-medium mb-2 text-white-50">Emergency 24/7</p>
+                                        <h3 class="m-0 text-light">+012 345 6789</h3>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
+
+
                     </div>
                     <div class="col-lg-6 pt-4" style="min-height: 500px;">
                         <div class="position-relative h-100 ">
@@ -252,8 +314,10 @@
                             <div class="col-md-6  mb-4">
                                 <div class="service-card">
                                     <div class="service-card-body">
-                                        <h5 class="service-card-title">Accompaniment to Medical Appointments</h5>
-                                        <p class="service-card-text">The process of navigating medical appointments can be
+                                        <h5 class="service-card-title"> <span class="text_forth">Accompaniment</span> to
+                                            Medical Appointments</h5>
+                                        <p class="service-card-text">The process of navigating medical appointments can
+                                            be
                                             daunting, even for those elderly or disabled and in need of further
                                             assistance. Care attendants at Second Bloom offer tailored accompaniment
                                             support to clients, making them feel safe and secure when visiting the
@@ -269,7 +333,8 @@
                             <div class="col-md-6  mb-4">
                                 <div class="service-card">
                                     <div class="service-card-body">
-                                        <h5 class="service-card-title">Cooking & Laundry Service</h5>
+                                        <h5 class="service-card-title"> <span class="text_forth">Cooking</span> &
+                                            Laundry Service</h5>
                                         <p class="service-card-text">To live a healthy and happy life, a body with good
                                             nutrition and a clean, comfortable place to be are a must. Our staff can
                                             provide culinary services designed for every client's needs and preferences,
@@ -285,8 +350,10 @@
                             <div class="col-md-6  mb-4">
                                 <div class="service-card">
                                     <div class="service-card-body">
-                                        <h5 class="service-card-title">Personal Care, Such as Bathing and Dressing</h5>
-                                        <p class="service-card-text">Even though hygiene is very essential for dignity and
+                                        <h5 class="service-card-title"> <span class="text_forth">Personal Care</span>,
+                                            Such as Bathing and Dressing</h5>
+                                        <p class="service-card-text">Even though hygiene is very essential for dignity
+                                            and
                                             health, it is a challenge for those with less mobility or physical
                                             difficulties. Our caring caregivers assist with bathing, dressing, and
                                             personal grooming to enable clients to feel refreshed and self-assured every
@@ -300,8 +367,10 @@
                             <div class="col-md-6  mb-4">
                                 <div class="service-card">
                                     <div class="service-card-body">
-                                        <h5 class="service-card-title">Housekeeping and Running Errands</h5>
-                                        <p class="service-card-text">Basic to a life free of stress is the cleanliness of living
+                                        <h5 class="service-card-title"> <span class="text_forth">Housekeeping</span> and
+                                            Running Errands</h5>
+                                        <p class="service-card-text">Basic to a life free of stress is the cleanliness
+                                            of living
                                             areas, as well as providing the means for daily errands. Light housekeeping
                                             services, in keeping living spaces clean and appealing, is just one of the
                                             things that Second Bloom is offering. Dusting, vacuuming, and organizing
@@ -321,39 +390,182 @@
             </div>
         </section>
 
+        <!-- cta -->
+        <section class="fact-area fact-map bg_primary position-relative call-to-action1 ">
+            <div class="containerFull">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-10">
+                        <div class="section-title pos-rel mb-45">
+                            <div class="section-text section-text-white pos-rel">
+                                <h5 class="text-white-50">We are available 24/7</h5>
+                                <h3 class="white-color heading fontHeading fontWeight600 text_forth mt-3 ">We Always
+                                    Ready For A Challenge.</h3>
+                            </div>
+                        </div>
+                        <div class="section-button section-button-left mt-5">
+                            <!-- <a data-animation="fadeInLeft" data-delay=".6s" href="#"
+                                class="btn btn-icon ml-0"><span>+</span>Make Appointment</a> -->
+                            <a href="tel:0123456789">
+                                <div class=" mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg_secondary d-flex align-items-center"
+                                    style="width:fit-content">
+                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
+                                        style="width: 45px; height: 45px;">
+                                        <i class="fa fa-phone-alt text_primary"></i>
+                                    </div>
+                                    <div class="ms-3">
+                                        <!-- <p class="mb-1 text-white">Emergency 24/7</p> -->
+                                        <h5 class="m-0 text-secondary text-light">+012 345 6789</h5>
+                                    </div>
+                                </div>
+                            </a>
 
-        <!-- contact  -->
-        <section>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-lg-6 col-md-8">
+                        <div class="cta-satisfied">
+                            <div class="single-satisfied mb-5">
+                                <h4 class="h1">1M+</h4>
+                                <h5> <i class="fas fa-user"></i> Satisfied Patients</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna
+                                    aliqua.</p>
+                            </div>
+                            <div class="single-satisfied ">
+                                <h4 class="h1">100+</h4>
+                                <h5><i class="far fa-thumbs-up"></i> World Awards</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna
+                                    aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- why choose -->
+        <section class="why-choose-us-area">
             <div class="containerFull">
                 <div class="row">
                     <div class="col-lg-6">
-                        <small class="fontWeight600 ">
-                            GET IN TOUCH
-                        </small>
-                        <h4 class="mt-3 fontHeading  heading text_secondary ">
-                            Contact with us for <span class="text_primary">Visa Inquiry</span>
+                        <h4 class="heading fontHeading fontWeight600 why_choose_title">
+                            <span class="text_secondary"> Why Choose</span> <span class="text_primary">Second
+                                Bloom</span>
                         </h4>
+                        <p class="mt-4">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, maiores? adipisicing
+                            elit. Recusandae, maiores?
+                        </p>
+                        <div class="pe-5 mt-4">
+                            <?php foreach ($whyChooseUs as $content): ?>
+                                <div class="why-card-item mb-4">
+                                    <!-- <div class="img_box">
 
-                        <div>
+                                        <img src="<?php echo $content['image']; ?>" alt="<?php echo $content['title']; ?>"
+                                            class="why-card-image">
+                                    </div> -->
+                                    <div class="why_content">
+                                        <h4 class="fontHeading  fontWeight600"><?php echo $content['title']; ?></h4>
+                                        <p class="mt-3"><?php echo $content['description']; ?></p>
+                                    </div>
 
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
 
-                            <img class="w-75 mx-auto d-block"
-                                src="images/travel-landmark-concept-poster-print_1284-13615.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 why-slider">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/why_img (1).jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/why_img (2).jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/why_img (3).jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- contact  -->
+        <section class="contact-form">
+            <div class="containerFull">
+                <div class="row align-items-center">
                     <div class="col-lg-6">
+                        <small class="fontWeight600 text-white-50 ">
+                            GET IN TOUCH
+                        </small>
+                        <h4 class="mt-3 fontHeading  heading text-light ">
+                            Contact with us for <span class="text_forth">Health Care Services</span>
+                        </h4>
+
+                        <p class="mt-3 pe-lg-5 text-light">
+                            we are health service Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+                            labore aperiam odit, alias assumenda ducimus.
+
+                        </p>
+                        <p class="mt-3 pe-lg-5 text-light">
+                            we are health service Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+                            labore aperiam odit, alias assumenda ducimus.
+
+                        </p>
+
+                        <div class="section-button section-button-left mt-5">
+
+                            <a href="tel:0123456789">
+                                <div class=" mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg_secondary d-flex align-items-center"
+                                    style="width:fit-content">
+                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
+                                        style="width: 45px; height: 45px;">
+                                        <i class="fa fa-phone-alt text_primary"></i>
+                                    </div>
+                                    <div class="ms-3">
+                                        <!-- <p class="mb-1 text-white">Emergency 24/7</p> -->
+                                        <h5 class="m-0 text-secondary text-light">+012 345 6789</h5>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ps-5">
                         <form action="">
                             <div class="form_grid">
-                                <div class="form-floating mb-1">
+                                <div class="form-floating mb-3">
                                     <input type="text" class="form-control" id="name" placeholder="name">
                                     <label for="name">Name *</label>
                                 </div>
 
-                                <div class="form-floating mb-1">
+                                <div class="form-floating mb-3">
                                     <input type="tel" class="form-control" id="phoneno" placeholder="phone no">
                                     <label for="phoneno">Contact No. *</label>
                                 </div>
-                                <div class="form-floating mb-1">
+                                <div class="form-floating ">
                                     <input type="email" class="form-control" id="floatingInput"
                                         placeholder="name@example.com">
                                     <label for="floatingInput">Email Address *</label>
@@ -365,7 +577,7 @@
                                     style="height: 100px"></textarea>
                                 <label for="floatingTextarea2">Additional Information </label>
                             </div>
-                            <button class="btn_1 border-0 w-100 mt-4">
+                            <button type="submit" class="btn_1 border-0 w-100 mt-4">
                                 Submit
                             </button>
 
@@ -386,7 +598,12 @@
     <?php include 'include/footer-links.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <!-- <script>
+        $('.carousel').carousel({
+            interval: 2000
+        })
 
+    </script> -->
     <script>
         var swiper = new Swiper(".banner_swiper", {
             spaceBetween: 0,
