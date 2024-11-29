@@ -219,15 +219,15 @@ section {
 }
 
 /* header */
-.navbar-nav a{
+.navbar-nav a {
   color: var(--primary-color);
   font-weight: 500;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-.navbar-nav a:hover{
+.navbar-nav a:hover {
   color: var(--primary-color) !important;
 }
-.navbar-nav a.active{
+.navbar-nav a.active {
   color: var(--primary-color) !important;
 }
 .stricky {
@@ -341,12 +341,59 @@ section {
 }
 
 /* our services */
+
+.services_grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  row-gap: 10px;
+}
+/* .services_grid .item_img{
+
+} */
+.services_grid .item_img {
+  position: relative;
+}
+.item_img_inner {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*  */
 .service-card {
   padding: 30px;
   background-color: var(--third-color);
-  border-radius: 10px;
+  /* border-radius: 10px; */
   height: 100%;
+  min-height: 350px;
   transition: all 0.4s ease-in-out;
+  position: relative;
+  background-blend-mode: multiply;
+}
+.service-card h5 {
+  position: absolute;
+  width: 100%;
+  bottom: 50px;
+}
+.service-card.card_1 {
+  background-image: url(../images/senior-woman-showing-her-doctor-photo-frame_23-2148962335.avif);
+  background-size: cover;
+}
+.service-card.card_2 {
+  background-image: url(../images/man-holding-pile-clean-clothes.jpg);
+  background-size: cover;
+}
+.service-card.card_3 {
+  background-image: url(../images/pexels-photo-4783286.webp);
+  background-size: cover;
+}
+.service-card.card_4 {
+  background-image: url(../images/house-keeping.jpg);
+  background-size: cover;
 }
 .service-card:hover {
   background-color: var(--primary-color);

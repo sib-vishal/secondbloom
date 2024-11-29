@@ -45,85 +45,129 @@
                     accessible, and empathetic environment that fosters resilience and strengthens our clients'
                     relationships with their families and communities.
                 </p>
-                <div class="">
-                    <div class=" ">
-                        <div class="row mt-4">
-                            <!-- Accompaniment to Medical Appointments -->
-                            <div class="col-md-6  mb-4">
-                                <div class="service-card">
-                                    <div class="service-card-body">
-                                        <h5 class="service-card-title"> <span class="text_forth">Accompaniment</span> to
-                                            Medical Appointments</h5>
-                                        <p class="service-card-text">The process of navigating medical appointments can
-                                            be
-                                            daunting, even for those elderly or disabled and in need of further
-                                            assistance. Care attendants at Second Bloom offer tailored accompaniment
-                                            support to clients, making them feel safe and secure when visiting the
-                                            doctor. We help from appointment scheduling to even transportations. Our
-                                            attendants also give clients a comforting presence during consultations to
-                                            ensure all medical advice and instructions are understood and effectively
-                                            communicated./p>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <!-- Cooking & Laundry Service -->
-                            <div class="col-md-6  mb-4">
-                                <div class="service-card">
-                                    <div class="service-card-body">
-                                        <h5 class="service-card-title"> <span class="text_forth">Cooking</span> &
-                                            Laundry Service</h5>
-                                        <p class="service-card-text">To live a healthy and happy life, a body with good
-                                            nutrition and a clean, comfortable place to be are a must. Our staff can
-                                            provide culinary services designed for every client's needs and preferences,
-                                            cooking nourishing and tasty meals for overall well-being. We also take care
-                                            of the laundry, creating fresh and clean clothes and linens for use in an
-                                            always clean and beautifully maintained space. We leave our clients free to
-                                            do what is important: enjoying the day in comfort and serenity.</p>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="services_grid mt-4">
+                    <!-- Accompaniment to Medical Appointments -->
+                    <div class="item_img">
+                        <div class="item_img_inner">
+                            <img src="https://img.freepik.com/free-photo/senior-woman-showing-her-doctor-photo-frame_23-2148962335.jpg?t=st=1732777435~exp=1732781035~hmac=2cc71ccb3b182f1ae5d4b90c5c3395b7735d0537522869f26ea9504aaea8145a&amp;w=740"
+                                alt="">
+                        </div>
 
-                            <!-- Personal Care (Bathing and Dressing) -->
-                            <div class="col-md-6  mb-4">
-                                <div class="service-card">
-                                    <div class="service-card-body">
-                                        <h5 class="service-card-title"> <span class="text_forth">Personal Care</span>,
-                                            Such as Bathing and Dressing</h5>
-                                        <p class="service-card-text">Even though hygiene is very essential for dignity
-                                            and
-                                            health, it is a challenge for those with less mobility or physical
-                                            difficulties. Our caring caregivers assist with bathing, dressing, and
-                                            personal grooming to enable clients to feel refreshed and self-assured every
-                                            day. We treat our clients with dignity and compassion while instilling the
-                                            confidence of independence in their lives.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Housekeeping and Running Errands -->
-                            <div class="col-md-6  mb-4">
-                                <div class="service-card">
-                                    <div class="service-card-body">
-                                        <h5 class="service-card-title"> <span class="text_forth">Housekeeping</span> and
-                                            Running Errands</h5>
-                                        <p class="service-card-text">Basic to a life free of stress is the cleanliness
-                                            of living
-                                            areas, as well as providing the means for daily errands. Light housekeeping
-                                            services, in keeping living spaces clean and appealing, is just one of the
-                                            things that Second Bloom is offering. Dusting, vacuuming, and organizing
-                                            essentials for ease of access ensure that the homes of our clients are
-                                            maintained as sanctuaries. Care attendants can also run errands such as
-                                            picking up groceries, prescriptions, and other everyday duties for the
-                                            betterment of life.</p>
-                                    </div>
+                    </div>
+                    <div class=" item_grid_services">
+                        <div class="service-card">
+                            <div class="service-card-body">
+                                <h4 class="service-card-title"> <span class="text_forth">Accompaniment</span> to
+                                    Medical Appointments</h4>
+                                <p class="service-card-text">The process of navigating medical appointments can
+                                    be
+                                    daunting, even for those elderly or disabled and in need of further
+                                    assistance. Care attendants at Second Bloom offer tailored accompaniment
+                                    support to clients, making them feel safe and secure when visiting the
+                                    doctor. We help from appointment scheduling to even transportations. Our
+                                    attendants also give clients a comforting presence during consultations to
+                                    ensure all medical advice and instructions are understood and effectively
+                                    communicated.</p>
+                                <div class="mt-4">
+                                    <a href="#" class="text_forth fontWeight600">Learn More <i
+                                            class="fa-solid fa-arrow-right-long ms-2"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
 
+                    <!-- Cooking & Laundry Service -->
+                    <div class=" item_grid_services">
+                        <div class="service-card">
+                            <div class="service-card-body">
+                                <h4 class="service-card-title"> <span class="text_forth">Cooking</span> &amp;
+                                    Laundry Service</h4>
+                                <p class="service-card-text">To live a healthy and happy life, a body with good
+                                    nutrition and a clean, comfortable place to be are a must. Our staff can
+                                    provide culinary services designed for every client's needs and preferences,
+                                    cooking nourishing and tasty meals for overall well-being. We also take care
+                                    of the laundry, creating fresh and clean clothes and linens for use in an
+                                    always clean and beautifully maintained space. We leave our clients free to
+                                    do what is important: enjoying the day in comfort and serenity.</p>
+                                <div class="mt-4">
+                                    <a href="#" class="text_forth fontWeight600">Learn More <i
+                                            class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_img">
+                        <div class="item_img_inner">
+                            <img src="images/man-holding-pile-clean-clothes.jpg" alt="">
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="item_img">
+                        <div class="item_img_inner">
+                            <img src="images/pexels-photo-4783286.webp" alt="">
+                        </div>
+
+                    </div>
+
+                    <!-- Personal Care (Bathing and Dressing) -->
+                    <div class=" item_grid_services">
+                        <div class="service-card">
+                            <div class="service-card-body">
+                                <h4 class="service-card-title"> <span class="text_forth">Personal Care</span>,
+                                    Such as Bathing and Dressing</h4>
+                                <p class="service-card-text">Even though hygiene is very essential for dignity
+                                    and
+                                    health, it is a challenge for those with less mobility or physical
+                                    difficulties. Our caring caregivers assist with bathing, dressing, and
+                                    personal grooming to enable clients to feel refreshed and self-assured every
+                                    day. We treat our clients with dignity and compassion while instilling the
+                                    confidence of independence in their lives.</p>
+                                <div class="mt-4">
+                                    <a href="#" class="text_forth fontWeight600">Learn More <i
+                                            class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Housekeeping and Running Errands -->
+                    <div class=" item_grid_services">
+                        <div class="service-card">
+                            <div class="service-card-body">
+                                <h4 class="service-card-title"> <span class="text_forth">Housekeeping</span> and
+                                    Running Errands</h4>
+                                <p class="service-card-text">Basic to a life free of stress is the cleanliness
+                                    of living
+                                    areas, as well as providing the means for daily errands. Light housekeeping
+                                    services, in keeping living spaces clean and appealing, is just one of the
+                                    things that Second Bloom is offering. Dusting, vacuuming, and organizing
+                                    essentials for ease of access ensure that the homes of our clients are
+                                    maintained as sanctuaries. Care attendants can also run errands such as
+                                    picking up groceries, prescriptions, and other everyday duties for the
+                                    betterment of life.</p>
+                                <div class="mt-4">
+                                    <a href="#" class="text_forth fontWeight600">Learn More <i
+                                            class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_img">
+                        <div class="item_img_inner">
+                            <img src="https://img.freepik.com/free-photo/senior-woman-showing-her-doctor-photo-frame_23-2148962335.jpg?t=st=1732777435~exp=1732781035~hmac=2cc71ccb3b182f1ae5d4b90c5c3395b7735d0537522869f26ea9504aaea8145a&amp;w=740"
+                                alt="">
+                        </div>
+
+                    </div>
                 </div>
+
 
             </div>
         </section>

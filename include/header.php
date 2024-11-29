@@ -44,10 +44,13 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarCollapse">
 			<div class="navbar-nav me-auto">
-			<a href="index.php" class="nav-item nav-link <?php echo ($page == 'home') ? 'active' : ''; ?>">Home</a>
-				<a href="about-us.php" class="nav-item nav-link  <?php echo ($page == 'about') ? 'active' : ''; ?>">About Us</a>
-				<a href="services.php" class="nav-item nav-link  <?php echo ($page == 'services') ? 'active' : ''; ?>">Our Services</a>
-				<a href="gallery.php" class="nav-item nav-link  <?php echo ($page == 'gallery') ? 'active' : ''; ?>">Gallery</a>
+				<a href="index.php" class="nav-item nav-link <?php echo ($page == 'home') ? 'active' : ''; ?>">Home</a>
+				<a href="about-us.php"
+					class="nav-item nav-link  <?php echo ($page == 'about') ? 'active' : ''; ?>">About Us</a>
+				<a href="services.php"
+					class="nav-item nav-link  <?php echo ($page == 'services') ? 'active' : ''; ?>">Our Services</a>
+				<a href="gallery.php"
+					class="nav-item nav-link  <?php echo ($page == 'gallery') ? 'active' : ''; ?>">Gallery</a>
 				<!-- <div class="nav-item dropdown">
 					<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
 					<div class="dropdown-menu fade-up m-0">
@@ -57,7 +60,8 @@
 						<a href="404.php" class="dropdown-item">404 Page</a>
 					</div>
 				</div> -->
-				<a href="contact-us.php" class="nav-item nav-link  <?php echo ($page == 'contact') ? 'active' : ''; ?>">Contact Us</a>
+				<a href="contact-us.php"
+					class="nav-item nav-link  <?php echo ($page == 'contact') ? 'active' : ''; ?>">Contact Us</a>
 			</div>
 			<div>
 				<a href="tel:0123456789">

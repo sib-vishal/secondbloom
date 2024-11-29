@@ -102,11 +102,11 @@ $why_choose = [
                             care that includes dignity, independence, and a sense of belonging for those we serve.
 
                         </p>
-                        <p>
+                        <!-- <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam temporibus quia
                             blanditiis obcaecati quaerat necessitatibus molestiae repellat optio doloribus reiciendis
                             commodi ratione et, corporis ea magni sint iure accusantium?
-                        </p>
+                        </p> -->
 
                         <div>
                             <a href="tel:0123456789">

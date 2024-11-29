@@ -156,11 +156,11 @@ $whyChooseUs = [
                             care that includes dignity, independence, and a sense of belonging for those we serve.
 
                         </p>
-                        <p>
+                        <!-- <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam temporibus quia
                             blanditiis obcaecati quaerat necessitatibus molestiae repellat optio doloribus reiciendis
                             commodi ratione et, corporis ea magni sint iure accusantium?
-                        </p>
+                        </p> -->
 
                         <div>
                             <a href="tel:0123456789">
@@ -312,11 +312,13 @@ $whyChooseUs = [
                         <div class="row mt-4">
                             <!-- Accompaniment to Medical Appointments -->
                             <div class="col-md-6  mb-4">
-                                <div class="service-card">
-                                    <div class="service-card-body">
-                                        <h5 class="service-card-title"> <span class="text_forth">Accompaniment</span> to
-                                            Medical Appointments</h5>
-                                        <p class="service-card-text">The process of navigating medical appointments can
+                                <a href="services.php">
+                                    <div class="service-card card_1">
+                                        <div class="service-card-body">
+                                            <h5 class="service-card-title"> <span
+                                                    class="text_forth">Accompaniment</span> to
+                                                Medical Appointments</h5>
+                                            <!-- <p class="service-card-text">The process of navigating medical appointments can
                                             be
                                             daunting, even for those elderly or disabled and in need of further
                                             assistance. Care attendants at Second Bloom offer tailored accompaniment
@@ -324,52 +326,64 @@ $whyChooseUs = [
                                             doctor. We help from appointment scheduling to even transportations. Our
                                             attendants also give clients a comforting presence during consultations to
                                             ensure all medical advice and instructions are understood and effectively
-                                            communicated./p>
+                                            communicated./p> -->
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
 
                             <!-- Cooking & Laundry Service -->
                             <div class="col-md-6  mb-4">
-                                <div class="service-card">
-                                    <div class="service-card-body">
-                                        <h5 class="service-card-title"> <span class="text_forth">Cooking</span> &
-                                            Laundry Service</h5>
-                                        <p class="service-card-text">To live a healthy and happy life, a body with good
+                                <a href="services.php">
+                                    <div class="service-card card_2">
+                                        <div class="service-card-body">
+                                            <h5 class="service-card-title"> <span class="text_forth">Cooking</span> &
+                                                Laundry Service</h5>
+                                            <!-- <p class="service-card-text">To live a healthy and happy life, a body with good
                                             nutrition and a clean, comfortable place to be are a must. Our staff can
                                             provide culinary services designed for every client's needs and preferences,
                                             cooking nourishing and tasty meals for overall well-being. We also take care
                                             of the laundry, creating fresh and clean clothes and linens for use in an
                                             always clean and beautifully maintained space. We leave our clients free to
-                                            do what is important: enjoying the day in comfort and serenity.</p>
+                                            do what is important: enjoying the day in comfort and serenity.</p> -->
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
 
                             <!-- Personal Care (Bathing and Dressing) -->
                             <div class="col-md-6  mb-4">
-                                <div class="service-card">
-                                    <div class="service-card-body">
-                                        <h5 class="service-card-title"> <span class="text_forth">Personal Care</span>,
-                                            Such as Bathing and Dressing</h5>
-                                        <p class="service-card-text">Even though hygiene is very essential for dignity
+                                <a href="services.php">
+                                    <div class="service-card card_3">
+                                        <div class="service-card-body">
+                                            <h5 class="service-card-title"> <span class="text_forth">Personal
+                                                    Care</span>,
+                                                Such as Bathing and Dressing</h5>
+                                            <!-- <p class="service-card-text">Even though hygiene is very essential for dignity
                                             and
                                             health, it is a challenge for those with less mobility or physical
                                             difficulties. Our caring caregivers assist with bathing, dressing, and
                                             personal grooming to enable clients to feel refreshed and self-assured every
                                             day. We treat our clients with dignity and compassion while instilling the
-                                            confidence of independence in their lives.</p>
+                                            confidence of independence in their lives.</p> -->
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
+
+
 
                             <!-- Housekeeping and Running Errands -->
                             <div class="col-md-6  mb-4">
-                                <div class="service-card">
-                                    <div class="service-card-body">
-                                        <h5 class="service-card-title"> <span class="text_forth">Housekeeping</span> and
-                                            Running Errands</h5>
-                                        <p class="service-card-text">Basic to a life free of stress is the cleanliness
+
+                                <a href="services.php">
+
+                                    <div class="service-card card_4">
+                                        <div class="service-card-body">
+                                            <h5 class="service-card-title"> <span class="text_forth">Housekeeping</span>
+                                                and
+                                                Running Errands</h5>
+                                            <!-- <p class="service-card-text">Basic to a life free of stress is the cleanliness
                                             of living
                                             areas, as well as providing the means for daily errands. Light housekeeping
                                             services, in keeping living spaces clean and appealing, is just one of the
@@ -377,9 +391,12 @@ $whyChooseUs = [
                                             essentials for ease of access ensure that the homes of our clients are
                                             maintained as sanctuaries. Care attendants can also run errands such as
                                             picking up groceries, prescriptions, and other everyday duties for the
-                                            betterment of life.</p>
+                                            betterment of life.</p> -->
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
+
+
                             </div>
                         </div>
                     </div>
